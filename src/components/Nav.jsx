@@ -1,10 +1,11 @@
 import { useKeycloak } from "@react-keycloak/web";
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../styles/nav.scss";
 
 const Nav = () => {
   const { keycloak, initialized } = useKeycloak();
+  const navigate = useNavigate();
 
   if (!initialized) {
     return <h1>Loading...</h1>;
@@ -43,7 +44,10 @@ const Nav = () => {
                   <button
                     type="button"
                     className="button"
-                    onClick={() => keycloak.logout()}
+                    onClick={() => {
+                      keycloak.logout();
+                      navigate("/");
+                    }}
                   >
                     Logout ({keycloak.tokenParsed.preferred_username})
                   </button>
