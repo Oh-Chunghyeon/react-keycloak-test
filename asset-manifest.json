@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/react-keycloak-test/static/css/main.31d6cfe0.css",
+    "main.js": "/react-keycloak-test/static/js/main.a47f1e38.js",
+    "index.html": "/react-keycloak-test/index.html",
+    "main.a47f1e38.js.map": "/react-keycloak-test/static/js/main.a47f1e38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.a47f1e38.js"
+  ]
+}
