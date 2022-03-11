@@ -6,7 +6,9 @@ import "../styles/nav.scss";
 const Nav = () => {
   const { keycloak, initialized } = useKeycloak();
 
-  console.log(keycloak);
+  if (!initialized) {
+    return <h1>Loading...</h1>;
+  }
 
   console.log(keycloak.token);
   return (
