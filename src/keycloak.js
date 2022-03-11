@@ -6,16 +6,17 @@ import Keycloak from "keycloak-js";
 //   clientId: "react-auth",
 // });
 
+// const keycloak = new Keycloak({
+//   url: "http://localhost:8080/auth",
+//   realm: "ppoint",
+//   clientId: "ppoint-auth",
+// });
+
+// Hugo data
 const keycloak = new Keycloak({
-  url: "http://localhost:8080/auth",
-  realm: "ppoint",
+  url: "http://dev-keycloak.pnpt.net:8080/",
+  realm: "pinpoint",
   clientId: "ppoint-auth",
 });
-
-// const keycloak = new Keycloak({
-//   url: "http://dev-keycloak.pnpt.net:8080/",
-//   realm: "pinpoint",
-//   clientId: "ppnt-login",
-// });
 
 export default keycloak;
