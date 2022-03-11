@@ -45,8 +45,8 @@ const Nav = () => {
                     type="button"
                     className="button"
                     onClick={() => {
-                      keycloak.logout();
                       navigate("/");
+                      keycloak.logout();
                     }}
                   >
                     Logout ({keycloak.tokenParsed.preferred_username})
