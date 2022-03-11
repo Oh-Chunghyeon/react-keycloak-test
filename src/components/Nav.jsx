@@ -8,7 +8,7 @@ const Nav = () => {
   const navigate = useNavigate();
 
   if (!initialized) {
-    return <h1>Loading...</h1>;
+    navigate("/");
   }
 
   console.log(keycloak.token);
@@ -44,10 +44,7 @@ const Nav = () => {
                   <button
                     type="button"
                     className="button"
-                    onClick={() => {
-                      navigate("/");
-                      keycloak.logout();
-                    }}
+                    onClick={() => keycloak.logout()}
                   >
                     Logout ({keycloak.tokenParsed.preferred_username})
                   </button>
