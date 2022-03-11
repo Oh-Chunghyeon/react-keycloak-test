@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/react-keycloak-test/static/css/main.31d6cfe0.css",
-    "main.js": "/react-keycloak-test/static/js/main.bf0b182a.js",
+    "main.css": "/react-keycloak-test/static/css/main.c33f026a.css",
+    "main.js": "/react-keycloak-test/static/js/main.8e86d889.js",
     "index.html": "/react-keycloak-test/index.html",
-    "main.bf0b182a.js.map": "/react-keycloak-test/static/js/main.bf0b182a.js.map"
+    "main.c33f026a.css.map": "/react-keycloak-test/static/css/main.c33f026a.css.map",
+    "main.8e86d889.js.map": "/react-keycloak-test/static/js/main.8e86d889.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.bf0b182a.js"
+    "static/css/main.c33f026a.css",
+    "static/js/main.8e86d889.js"
   ]
 }
